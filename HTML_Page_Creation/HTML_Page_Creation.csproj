@@ -48,14 +48,14 @@
     <None Include="App.config" />
     <None Include="TextTemplate1.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>TextTemplate1.txt</LastGenOutput>
+      <LastGenOutput>TextTemplate1.html</LastGenOutput>
     </None>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="TextTemplate1.txt">
+    <Content Include="TextTemplate1.html">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>TextTemplate1.tt</DependentUpon>
